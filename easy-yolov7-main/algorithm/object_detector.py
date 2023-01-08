@@ -13,7 +13,7 @@ import yaml
 
 
 class YOLOv7:
-    def __init__(self, conf_thres=0.25, iou_thres=0.45, img_size=640, ocr_classes=[]):
+    def __init__(self, conf_thres=0.25, iou_thres=0.45, img_size=1088, ocr_classes=[]):
         self.settings = {
             'conf_thres':conf_thres,
             'iou_thres':iou_thres,
